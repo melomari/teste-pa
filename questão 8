@@ -1,0 +1,5 @@
+No primeiro codigo imprime o conteúdo do bloco da memória cujo o endereço é o
+do vet[]
+
+No segundo codigo ao invés de imprimir o conteúdo dos blocos de memória, o
+programa imprime o endereço dos blocos do vet[]
