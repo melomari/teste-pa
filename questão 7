@@ -1,0 +1,2 @@
+Apenas p = mat +1; e x = (*mat)++; estão certas pois não dá para incrementar valor do tipo int
+ao ponteiro
