@@ -1,25 +1,26 @@
+a)
 printf("%d \n", valor); 20
-
+b)
 printf("%.1f \n ", temp); 29.0
-
+c)
 printf("%c \n ", aux); P
-
+d)
 printf("%c \n ", aux); e
-
+e)
 printf("%c \n ", *p3); P
-
+f)
 printf("%c \n ", *p3); e
-
+g)
 printf("%c \n ", *p3); t
-
+h)
 printf("%d \n ", idade); 31
-
+i)
 printf("%d \n ", idade); 45
-
+j)
 printf("%d \n ", idade); 27
-
+l)
 printf("%d \n ", idade); 31
-
+m)
 printf("%d \n", *p5); 45
-
+n)
 printf("%d \n", *p5); 27
