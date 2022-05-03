@@ -1,0 +1,129 @@
+CHAR
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+ 	 char x[4];
+ 	 int i;
+
+ 	 for(i = 0; i <= 3; i++){
+  	  printf("x + %d = %d \n", i+0 ,(x+i));
+ 	}
+}
+
+Resultado:
+
+Na questão 10, no meu notebook o x está armazenado no endereço de memória -852932300, obtendo:
+
+    x + 0 = -852932300 
+    x + 1 = -852932299 
+    x + 2 = -852932298 
+    x + 3 = -852932297 
+
+X sendo declarado como char, segundo a questão anterior que:
+
+    x + 1) 4092 + 1 = 4093
+    x + 2) 4092 + 2 = 4094
+    x + 3) 4092 + 3 = 4095
+
+Assim, como na questão anterior podemos ver que no char está andando de 1 em 1 byte.
+
+
+
+INT
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+ 	 int x[4];
+ 	 int i;
+
+ 	 for(i = 0; i <= 3; i++){
+  	  printf("x + %d = %d \n", i+0 ,(x+i));
+ 	}
+}
+
+Resultado:
+
+O x está sendo armazenado no endereço de memória 1438095088, obtendo:
+
+    x + 0 = 1438095088 
+    x + 1 = 1438095092 
+    x + 2 = 1438095096 
+    x + 3 = 1438095100 
+
+Comparando com a questão anterior:
+
+    x + 1) 4092 + 1 = 4094
+    x + 2) 4092 + 2 = 4096
+    x + 3) 4092 + 3 = 4098
+
+Assim, como na questão anterior podemos ver que no int está andando de 4 em 4 byte.
+
+
+
+FLOAT
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+ 	 float x[4];
+ 	 int i;
+
+ 	 for(i = 0; i <= 3; i++){
+  	  printf("x + %d = %d \n", i+0 ,(x+i));
+ 	}
+}
+
+Resultado:
+
+O x está sendo armazenado no endereço de memória 1498262464, obtendo:
+
+    x + 0 = 1498262464 
+    x + 1 = 1498262468 
+    x + 2 = 1498262472 
+    x + 3 = 1498262476 
+
+Comparando com a questão anterior:
+
+    x + 1) 4092 + 1 = 4096
+    x + 2) 4092 + 2 = 409A
+    x + 3) 4092 + 3 = 409E
+
+Assim, como na questão anterior podemos ver que no float, assim como o int, está andando de 4 em 4 byte.
+
+
+DOUBLE
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+ 	 double x[4];
+ 	 int i;
+
+ 	 for(i = 0; i <= 3; i++){
+  	  printf("x + %d = %d \n", i+0 ,(x+i));
+ 	}
+}
+
+Resultado:
+
+
+O x está sendo armazenado no endereço de memória 1263733472, obtendo:
+
+    x + 0 = 1263733472
+    x + 1 = 1263733480 
+    x + 2 = 1263733488 
+    x + 3 = 1263733496 
+Comparando com a questão anterior:
+
+    x + 1) 4092 + 1 = 409A
+    x + 2) 4092 + 2 = 40A2
+    x + 3) 4092 + 3 = 40AA
+
+Assim, como na questão anterior podemos ver que no double está andando de 8 em 8 byte.
