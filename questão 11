@@ -1,0 +1,15 @@
+aloha[2] = value; Válido
+
+scanf("%f", &aloha); Válido, talvez problemas se não declarar o vetor
+
+aloha = value"; Inválido, vetor tem que receber um valor sem o endereço da posição
+
+printf("%f", aloha); Válido
+
+coisas[4][4] = aloha[3]; Válido
+
+coisas[5] = aloha; Inválido, não pode atribuir uma variável a um vetor
+
+pf = value; Inválido, só pode receber inteiro
+
+pf = aloha válido
